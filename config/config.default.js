@@ -18,6 +18,14 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  config.client = {
+    host: '139.9.190.33',
+    port: '3306',
+    user: 'rango',
+    password: 'rangocold',
+    database: 'low-code',
+  }
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
