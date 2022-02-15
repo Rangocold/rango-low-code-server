@@ -1,0 +1,19 @@
+{
+  "name": "rango-low-code-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rangocold/rango-low-code-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rangocold/rango-low-code-server/issues"
+  },
+  "homepage": "https://github.com/Rangocold/rango-low-code-server#readme"
+}
