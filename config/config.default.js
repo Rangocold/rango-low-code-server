@@ -1,3 +1,4 @@
+const yargs = require('yargs');
 /* eslint valid-jsdoc: "off" */
 
 'use strict';
