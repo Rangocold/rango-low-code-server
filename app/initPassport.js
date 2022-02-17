@@ -1,6 +1,7 @@
 'use strict';
 
 const passport = require('passport');
+const md5 = require('md5');
 const WechatStrategy = require('passport-wechat');
 
 module.exports = (app) => {
@@ -21,6 +22,7 @@ module.exports = (app) => {
   ));
   app.passport.verify(async (ctx, user) => {
     // 拿到用户对象，返回用户对象
+    return { token: md5(user.id) };
   });
   // 将用户信息序列化后存进 session 里面，一般需要精简，只保存个别字段
   app.passport.serializeUser(async (ctx, user) => {

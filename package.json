@@ -12,6 +12,7 @@
     "egg-passport": "^2.1.1",
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^6.0.0",
+    "md5": "^2.3.0",
     "mysql2": "^2.3.3",
     "passport-wechat": "^2.0.4",
     "yargs": "^17.3.1"
