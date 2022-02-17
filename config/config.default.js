@@ -1,12 +1,26 @@
-const yargs = require('yargs');
-/* eslint valid-jsdoc: "off" */
-
 'use strict';
+
+const yargs = require('yargs');
+const { defaultDbHost, defaultDbPort, defaultDbName, defaultDbUser } = require('./consts');
+
+function parseArgs() {
+  const args = yargs.argv;
+  return {
+    dbHost: args.dbHost || defaultDbHost,
+    dbPort: args.dbPort || defaultDbPort,
+    dbUser: args.dbUser || defaultDbUser,
+    dbName: args.dbName || defaultDbName,
+    dbPassword: args.dbPassword,
+  }
+}
+
+/* eslint valid-jsdoc: "off" */
 
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
 module.exports = appInfo => {
+  const params = parseArgs();
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
@@ -19,13 +33,16 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
-  config.client = {
-    host: '139.9.190.33',
-    port: '3306',
-    user: 'rango',
-    password: 'rangocold',
-    database: 'low-code',
+  config.sequelize = {
+    dialect: 'mysql',
+    host: params.dbHost,
+    port: params.dbPort,
+    user: params.dbUser,
+    passowrd: params.dbPassword,
+    database: params.dbName,
   }
+
+  config.middleware = ['cors'];
 
   // add your user config here
   const userConfig = {

@@ -9,7 +9,11 @@
   "dependencies": {
     "egg": "^2.15.1",
     "egg-mysql": "^3.1.0",
+    "egg-passport": "^2.1.1",
     "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^6.0.0",
+    "mysql2": "^2.3.3",
+    "passport-wechat": "^2.0.4",
     "yargs": "^17.3.1"
   },
   "devDependencies": {
