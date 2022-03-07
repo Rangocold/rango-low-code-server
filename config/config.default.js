@@ -51,10 +51,6 @@ module.exports = appInfo => {
     // proxy: false,
   }
 
-  config.logger = {
-    dir: '/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log',
-  }
-
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
