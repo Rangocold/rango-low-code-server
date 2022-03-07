@@ -23,8 +23,6 @@ function parseArgs() {
  */
 module.exports = appInfo => {
   const params = parseArgs();
-  console.error('params: ', params);
-
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
@@ -35,7 +33,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1644926832188_1105';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['cors', 'auth'];
 
   config.sequelize = {
     dialect: 'mysql',
@@ -46,32 +44,21 @@ module.exports = appInfo => {
     database: params.dbName,
   }
 
-  /* config.sequelize = {
-    dialect: 'mysql',
-    host: '127.0.0.1',
-    port: 3306,
-    user: 'rango',
-    password: '!QAZ2wsx',
-    database: 'rango_low_code',
-  } */
-
   config.passportGithub = {
     key: params.githubKey,
     secret: params.githubSecret,
-    //key: '1b682793f38768c24ec7',
-    //secret: '83687427858e27c9cecfc8a017444647941f43d6',
     // callbackURL: '/passport/github/callback',
     // proxy: false,
   }
 
-  config.middleware = ['cors'];
+  config.logger = {
+    dir: '/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log',
+  }
 
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
   };
-
-  console.error('config: ', config);
 
   return {
     ...config,

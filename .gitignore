@@ -11,3 +11,5 @@ other.txt
 .vscode/**/*
 
 heihei.json
+
+/config/config.local.js

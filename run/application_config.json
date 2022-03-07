@@ -5,7 +5,13 @@
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true,
-      "logValue": true
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
     },
     "security": {
       "domainWhiteList": [],
@@ -21,11 +27,13 @@
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
         "queryName": "_csrf",
-        "refererWhiteList": []
+        "refererWhiteList": [],
+        "matching": "<Function anonymous>"
       },
       "xframe": {
         "enable": true,
-        "value": "SAMEORIGIN"
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
       },
       "hsts": {
         "enable": false,
@@ -33,16 +41,20 @@
         "includeSubdomains": false
       },
       "dta": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "methodnoallow": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "noopen": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "nosniff": {
-        "enable": true
+        "enable": true,
+        "matching": "<Function anonymous>"
       },
       "referrerPolicy": {
         "enable": false,
@@ -50,7 +62,8 @@
       },
       "xssProtection": {
         "enable": true,
-        "value": "1; mode=block"
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
       },
       "csp": {
         "enable": false,
@@ -81,11 +94,30 @@
     },
     "i18n": {
       "defaultLocale": "en_US",
-      "dirs": [],
+      "dirs": [
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-session/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-security/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-jsonp/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-onerror/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-i18n/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-schedule/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-multipart/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-logrotator/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-mysql/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-sequelize/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-passport/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-passport-github/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/locales",
+        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/locales"
+      ],
       "queryField": "locale",
       "cookieField": "locale",
       "cookieDomain": "",
-      "cookieMaxAge": "1y"
+      "cookieMaxAge": "1y",
+      "functionName": "__"
     },
     "watcher": {
       "type": "default",
@@ -108,9 +140,9 @@
       "autoFields": false,
       "defaultCharset": "utf8",
       "fieldNameSize": 100,
-      "fieldSize": "100kb",
+      "fieldSize": 102400,
       "fields": 10,
-      "fileSize": "10mb",
+      "fileSize": 10485760,
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
@@ -166,7 +198,16 @@
     "passportGithub": {
       "key": "1b682793f38768c24ec7",
       "secret": "<String len: 40>",
-      "callbackURL": "/passport/github/callback"
+      "callbackURL": "/passport/github/callback",
+      "passReqToCallback": true,
+      "clientID": "1b682793f38768c24ec7",
+      "clientSecret": "<String len: 40>",
+      "authorizationURL": "https://github.com/login/oauth/authorize",
+      "tokenURL": "https://github.com/login/oauth/access_token",
+      "scopeSeparator": ",",
+      "customHeaders": {
+        "User-Agent": "passport-github"
+      }
     },
     "env": "prod",
     "name": "rango-low-code-server",
@@ -264,7 +305,7 @@
         "depth": 5,
         "parameterLimit": 1000
       },
-      "onerror": "<Function onerror>"
+      "returnRawBody": true
     },
     "logger": {
       "dir": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log",
@@ -282,7 +323,7 @@
       "coreLogger": {},
       "allowDebugAtProd": false,
       "enablePerformanceTimer": false,
-      "type": "agent"
+      "type": "application"
     },
     "httpclient": {
       "enableDNSCache": false,
@@ -312,8 +353,14 @@
       "meta",
       "siteFile",
       "notfound",
+      "static",
       "bodyParser",
-      "overrideMethod"
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "passportInitialize",
+      "passportSession"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -335,7 +382,19 @@
     ],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware"
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
   },
   "plugins": {
     "onerror": {

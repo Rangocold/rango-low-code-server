@@ -1,0 +1,809 @@
+2022-03-07 01:04:32,063 INFO 56067 [egg-logrotator] agent logger reload: got log-reload message
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429968ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429962ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 02:52:42,042 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429963ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429974ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 04:40:52,049 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,043 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,043 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,043 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,043 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,045 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 06:29:02,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6429959ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428968ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428968ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:17:11,046 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 6428970ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,686 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,686 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,686 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361617ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361619ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361612ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,687 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,688 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,688 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,688 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,688 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361620ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:24:12,688 ERROR 56067 nodejs.ClusterClientNoResponseError: client no response in 361620ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 56067
+hostname: C02D45U7MD6T
+
+2022-03-07 08:40:42,362 INFO 60001 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 08:40:41,969 INFO 60001 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 08:40:42,267 INFO 60001 [egg:core] dump config after load, 3ms
+2022-03-07 08:40:42,326 INFO 60001 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 08:40:42,326 INFO 60001 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 08:40:42,326 INFO 60001 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 08:40:42,326 INFO 60001 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 08:40:42,327 INFO 60001 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 08:40:42,327 INFO 60001 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 08:40:42,327 INFO 60001 [egg-watcher:agent] watcher start success
+2022-03-07 08:40:42,408 INFO 60001 [egg:core] dump config after ready, 3ms
+2022-03-07 08:45:34,242 WARN 60001 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/auth.js change
+2022-03-07 08:45:34,034 INFO 60001 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/auth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14385704,"size":381,"blocks":8,"atimeMs":1646385608061.3643,"mtimeMs":1646613933971.237,"ctimeMs":1646613933971.237,"birthtimeMs":1645087832454.2422,"atime":"2022-03-04T09:20:08.061Z","mtime":"2022-03-07T00:45:33.971Z","ctime":"2022-03-07T00:45:33.971Z","birthtime":"2022-02-17T08:50:32.454Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 08:47:44,490 INFO 60193 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 08:47:44,136 INFO 60193 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 08:47:44,409 INFO 60193 [egg:core] dump config after load, 2ms
+2022-03-07 08:47:44,457 INFO 60193 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 08:47:44,457 INFO 60193 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 08:47:44,457 INFO 60193 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 08:47:44,457 INFO 60193 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 08:47:44,457 INFO 60193 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 08:47:44,457 INFO 60193 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 08:47:44,458 INFO 60193 [egg-watcher:agent] watcher start success
+2022-03-07 08:47:44,495 INFO 60193 [egg:core] dump config after ready, 3ms
+2022-03-07 08:51:58,574 INFO 60406 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 08:51:58,188 INFO 60406 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 08:51:58,479 INFO 60406 [egg:core] dump config after load, 3ms
+2022-03-07 08:51:58,537 INFO 60406 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 08:51:58,537 INFO 60406 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 08:51:58,537 INFO 60406 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 08:51:58,537 INFO 60406 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 08:51:58,537 INFO 60406 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 08:51:58,537 INFO 60406 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 08:51:58,538 INFO 60406 [egg-watcher:agent] watcher start success
+2022-03-07 08:51:58,578 INFO 60406 [egg:core] dump config after ready, 2ms
+2022-03-07 08:53:51,290 INFO 60520 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 08:53:50,980 INFO 60520 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 08:53:51,209 INFO 60520 [egg:core] dump config after load, 6ms
+2022-03-07 08:53:51,257 INFO 60520 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 08:53:51,257 INFO 60520 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 08:53:51,257 INFO 60520 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 08:53:51,257 INFO 60520 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 08:53:51,257 INFO 60520 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 08:53:51,258 INFO 60520 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 08:53:51,258 INFO 60520 [egg-watcher:agent] watcher start success
+2022-03-07 08:53:51,294 INFO 60520 [egg:core] dump config after ready, 2ms
+2022-03-07 09:04:50,650 INFO 60779 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 09:04:50,253 INFO 60779 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 09:04:50,554 INFO 60779 [egg:core] dump config after load, 3ms
+2022-03-07 09:04:50,612 INFO 60779 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 09:04:50,613 INFO 60779 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 09:04:50,613 INFO 60779 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 09:04:50,613 INFO 60779 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 09:04:50,613 INFO 60779 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 09:04:50,613 INFO 60779 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 09:04:50,614 INFO 60779 [egg-watcher:agent] watcher start success
+2022-03-07 09:04:50,655 INFO 60779 [egg:core] dump config after ready, 2ms
+2022-03-07 09:09:52,108 INFO 60957 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 09:09:51,726 INFO 60957 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 09:09:52,037 INFO 60957 [egg:core] dump config after load, 4ms
+2022-03-07 09:09:52,080 INFO 60957 [egg-watcher:agent] watcher start success
+2022-03-07 09:09:52,081 WARN 60957 [egg-watcher] defaultEventSource watcher will NOT take effect
+2022-03-07 09:09:52,113 INFO 60957 [egg:core] dump config after ready, 4ms
+2022-03-07 09:10:49,557 INFO 61100 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 09:10:49,184 INFO 61100 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 09:10:49,470 INFO 61100 [egg:core] dump config after load, 3ms
+2022-03-07 09:10:49,521 INFO 61100 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 09:10:49,521 INFO 61100 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 09:10:49,522 INFO 61100 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 09:10:49,522 INFO 61100 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 09:10:49,522 INFO 61100 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 09:10:49,522 INFO 61100 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 09:10:49,522 INFO 61100 [egg-watcher:agent] watcher start success
+2022-03-07 09:10:49,566 INFO 61100 [egg:core] dump config after ready, 3ms
+2022-03-07 09:12:12,525 INFO 61246 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 09:12:12,281 INFO 61246 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 09:12:12,450 INFO 61246 [egg:core] dump config after load, 3ms
+2022-03-07 09:12:12,495 INFO 61246 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 09:12:12,495 INFO 61246 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 09:12:12,496 INFO 61246 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 09:12:12,496 INFO 61246 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 09:12:12,496 INFO 61246 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 09:12:12,496 INFO 61246 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 09:12:12,496 INFO 61246 [egg-watcher:agent] watcher start success
+2022-03-07 09:12:12,529 INFO 61246 [egg:core] dump config after ready, 2ms
+2022-03-07 09:13:24,304 INFO 61246 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14376990,"size":154,"blocks":8,"atimeMs":1646615573521.3638,"mtimeMs":1646615604241.1963,"ctimeMs":1646615604241.1963,"birthtimeMs":1645085045259.939,"atime":"2022-03-07T01:12:53.521Z","mtime":"2022-03-07T01:13:24.241Z","ctime":"2022-03-07T01:13:24.241Z","birthtime":"2022-02-17T08:04:05.260Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 09:13:24,508 WARN 61246 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js change
+2022-03-07 09:13:29,359 WARN 61246 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js change
+2022-03-07 09:13:29,103 INFO 61246 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14376990,"size":141,"blocks":8,"atimeMs":1646615605276.9583,"mtimeMs":1646615609090.8726,"ctimeMs":1646615609090.8726,"birthtimeMs":1645085045259.939,"atime":"2022-03-07T01:13:25.277Z","mtime":"2022-03-07T01:13:29.091Z","ctime":"2022-03-07T01:13:29.091Z","birthtime":"2022-02-17T08:04:05.260Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 09:13:29,153 INFO 61246 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14376990,"size":141,"blocks":8,"atimeMs":1646615605276.9583,"mtimeMs":1646615609090.8726,"ctimeMs":1646615609090.8726,"birthtimeMs":1645085045259.939,"atime":"2022-03-07T01:13:25.277Z","mtime":"2022-03-07T01:13:29.091Z","ctime":"2022-03-07T01:13:29.091Z","birthtime":"2022-02-17T08:04:05.260Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 09:14:27,223 WARN 61246 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js change
+2022-03-07 09:14:27,018 INFO 61246 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/cors.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14376990,"size":201,"blocks":8,"atimeMs":1646615609491.4336,"mtimeMs":1646615666956.5903,"ctimeMs":1646615666956.5903,"birthtimeMs":1645085045259.939,"atime":"2022-03-07T01:13:29.491Z","mtime":"2022-03-07T01:14:26.957Z","ctime":"2022-03-07T01:14:26.957Z","birthtime":"2022-02-17T08:04:05.260Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 09:23:38,634 INFO 61536 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 09:23:38,264 INFO 61536 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 09:23:38,546 INFO 61536 [egg:core] dump config after load, 3ms
+2022-03-07 09:23:38,597 INFO 61536 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 09:23:38,598 INFO 61536 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 09:23:38,598 INFO 61536 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 09:23:38,598 INFO 61536 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 09:23:38,598 INFO 61536 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 09:23:38,598 INFO 61536 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 09:23:38,598 INFO 61536 [egg-watcher:agent] watcher start success
+2022-03-07 09:23:38,638 INFO 61536 [egg:core] dump config after ready, 2ms
+2022-03-07 09:23:58,559 INFO 61609 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 09:23:58,163 INFO 61609 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 09:23:58,466 INFO 61609 [egg:core] dump config after load, 3ms
+2022-03-07 09:23:58,520 INFO 61609 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 09:23:58,520 INFO 61609 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 09:23:58,521 INFO 61609 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 09:23:58,521 INFO 61609 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 09:23:58,521 INFO 61609 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 09:23:58,521 INFO 61609 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 09:23:58,521 INFO 61609 [egg-watcher:agent] watcher start success
+2022-03-07 09:23:58,563 INFO 61609 [egg:core] dump config after ready, 2ms
+2022-03-07 14:25:19,457 INFO 65946 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 14:25:19,043 INFO 65946 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 14:25:19,357 INFO 65946 [egg:core] dump config after load, 3ms
+2022-03-07 14:25:19,415 INFO 65946 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 14:25:19,415 INFO 65946 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 14:25:19,416 INFO 65946 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 14:25:19,416 INFO 65946 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 14:25:19,416 INFO 65946 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 14:25:19,416 INFO 65946 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 14:25:19,416 INFO 65946 [egg-watcher:agent] watcher start success
+2022-03-07 14:25:19,462 INFO 65946 [egg:core] dump config after ready, 3ms
+2022-03-07 14:26:18,174 INFO 65946 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/auth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14385704,"size":474,"blocks":8,"atimeMs":1646617853164.0254,"mtimeMs":1646634378110.5315,"ctimeMs":1646634378110.5315,"birthtimeMs":1645087832454.2422,"atime":"2022-03-07T01:50:53.164Z","mtime":"2022-03-07T06:26:18.111Z","ctime":"2022-03-07T06:26:18.111Z","birthtime":"2022-02-17T08:50:32.454Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 14:26:18,377 WARN 65946 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/auth.js change
+2022-03-07 14:30:34,104 INFO 66145 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 14:30:33,711 INFO 66145 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 14:30:34,013 INFO 66145 [egg:core] dump config after load, 5ms
+2022-03-07 14:30:34,067 INFO 66145 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 14:30:34,067 INFO 66145 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 14:30:34,067 INFO 66145 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 14:30:34,067 INFO 66145 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 14:30:34,067 INFO 66145 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 14:30:34,068 INFO 66145 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 14:30:34,068 INFO 66145 [egg-watcher:agent] watcher start success
+2022-03-07 14:30:34,109 INFO 66145 [egg:core] dump config after ready, 2ms
+2022-03-07 14:31:56,685 INFO 66280 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 14:31:56,383 INFO 66280 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 14:31:56,605 INFO 66280 [egg:core] dump config after load, 4ms
+2022-03-07 14:31:56,653 INFO 66280 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 14:31:56,653 INFO 66280 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 14:31:56,654 INFO 66280 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 14:31:56,654 INFO 66280 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 14:31:56,654 INFO 66280 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 14:31:56,654 INFO 66280 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 14:31:56,654 INFO 66280 [egg-watcher:agent] watcher start success
+2022-03-07 14:31:56,690 INFO 66280 [egg:core] dump config after ready, 3ms
+2022-03-07 14:34:42,134 INFO 66469 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 14:34:41,915 INFO 66469 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 14:34:42,063 INFO 66469 [egg:core] dump config after load, 4ms
+2022-03-07 14:34:42,107 INFO 66469 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 14:34:42,107 INFO 66469 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 14:34:42,108 INFO 66469 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 14:34:42,108 INFO 66469 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 14:34:42,108 INFO 66469 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 14:34:42,108 INFO 66469 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 14:34:42,108 INFO 66469 [egg-watcher:agent] watcher start success
+2022-03-07 14:34:42,138 INFO 66469 [egg:core] dump config after ready, 2ms
+2022-03-07 14:35:07,462 WARN 66469 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/auth.js change
+2022-03-07 14:35:07,256 INFO 66469 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/middleware/auth.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":14385704,"size":373,"blocks":8,"atimeMs":1646634780420.679,"mtimeMs":1646634907194.1858,"ctimeMs":1646634907194.1858,"birthtimeMs":1645087832454.2422,"atime":"2022-03-07T06:33:00.421Z","mtime":"2022-03-07T06:35:07.194Z","ctime":"2022-03-07T06:35:07.194Z","birthtime":"2022-02-17T08:50:32.454Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 14:36:48,536 INFO 66592 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 14:36:48,183 INFO 66592 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 14:36:48,465 INFO 66592 [egg:core] dump config after load, 4ms
+2022-03-07 14:36:48,506 INFO 66592 [egg-watcher:agent] watcher start success
+2022-03-07 14:36:48,507 WARN 66592 [egg-watcher] defaultEventSource watcher will NOT take effect
+2022-03-07 14:36:48,540 INFO 66592 [egg:core] dump config after ready, 3ms
