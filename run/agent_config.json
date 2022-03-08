@@ -88,7 +88,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/lib/event-sources/development"
@@ -121,6 +121,14 @@
         "disable": false
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -135,13 +143,12 @@
       "dir": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -168,7 +175,7 @@
       "secret": "<String len: 40>",
       "callbackURL": "/passport/github/callback"
     },
-    "env": "prod",
+    "env": "local",
     "name": "rango-low-code-server",
     "keys": "<String len: 40>",
     "cookies": {},
@@ -194,6 +201,7 @@
         "egg-passport-github": "^1.0.0",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^6.0.0",
+        "lodash": "^4.17.21",
         "md5": "^2.3.0",
         "mysql2": "^2.3.3",
         "passport-wechat": "^2.0.4",
@@ -269,17 +277,19 @@
     "logger": {
       "dir": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "rango-low-code-server-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "enablePerformanceTimer": false,
       "type": "agent"
@@ -411,7 +421,7 @@
       "version": "2.9.0"
     },
     "development": {
-      "enable": false,
+      "enable": true,
       "package": "egg-development",
       "name": "development",
       "dependencies": [

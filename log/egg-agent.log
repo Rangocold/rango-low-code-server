@@ -807,3 +807,73 @@ hostname: C02D45U7MD6T
 2022-03-07 14:36:48,506 INFO 66592 [egg-watcher:agent] watcher start success
 2022-03-07 14:36:48,507 WARN 66592 [egg-watcher] defaultEventSource watcher will NOT take effect
 2022-03-07 14:36:48,540 INFO 66592 [egg:core] dump config after ready, 3ms
+2022-03-07 14:47:40,288 INFO 66911 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 14:47:39,889 INFO 66911 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 14:47:40,200 INFO 66911 [egg:core] dump config after load, 6ms
+2022-03-07 14:47:40,251 INFO 66911 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 14:47:40,251 INFO 66911 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 14:47:40,251 INFO 66911 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 14:47:40,252 INFO 66911 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 14:47:40,252 INFO 66911 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 14:47:40,252 INFO 66911 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 14:47:40,252 INFO 66911 [egg-watcher:agent] watcher start success
+2022-03-07 14:47:40,297 INFO 66911 [egg:core] dump config after ready, 3ms
+2022-03-07 14:49:00,261 ERROR 66911 nodejs.ClusterClientNoResponseError: client no response in 73236ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 66911
+hostname: C02D45U7MD6T
+
+2022-03-07 15:06:14,482 INFO 67264 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 15:06:14,070 INFO 67264 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 15:06:14,384 INFO 67264 [egg:core] dump config after load, 3ms
+2022-03-07 15:06:14,441 INFO 67264 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 15:06:14,442 INFO 67264 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 15:06:14,442 INFO 67264 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 15:06:14,442 INFO 67264 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 15:06:14,442 INFO 67264 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 15:06:14,442 INFO 67264 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 15:06:14,443 INFO 67264 [egg-watcher:agent] watcher start success
+2022-03-07 15:06:14,486 INFO 67264 [egg:core] dump config after ready, 2ms
+2022-03-07 15:07:54,454 ERROR 67264 nodejs.ClusterClientNoResponseError: client no response in 78434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 67264
+hostname: C02D45U7MD6T
+
+2022-03-07 18:37:59,936 INFO 78219 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-07 18:37:59,531 INFO 78219 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-07 18:37:59,835 INFO 78219 [egg:core] dump config after load, 4ms
+2022-03-07 18:37:59,899 INFO 78219 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-07 18:37:59,899 INFO 78219 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-07 18:37:59,900 INFO 78219 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-07 18:37:59,900 INFO 78219 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-07 18:37:59,900 INFO 78219 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-07 18:37:59,900 INFO 78219 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-07 18:37:59,900 INFO 78219 [egg-watcher:agent] watcher start success
+2022-03-07 18:37:59,940 INFO 78219 [egg:core] dump config after ready, 2ms
+2022-03-07 18:41:34,360 INFO 78219 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/business","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":16057336,"size":64,"blocks":0,"atimeMs":1646649693920.7888,"mtimeMs":1646649693920.7888,"ctimeMs":1646649693920.7888,"birthtimeMs":1646649693920.7888,"atime":"2022-03-07T10:41:33.921Z","mtime":"2022-03-07T10:41:33.921Z","ctime":"2022-03-07T10:41:33.921Z","birthtime":"2022-03-07T10:41:33.921Z"},"remove":false,"isDirectory":true,"isFile":false}
+2022-03-07 18:41:40,918 WARN 78219 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js rename
+2022-03-07 18:41:40,714 INFO 78219 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":16057345,"size":0,"blocks":0,"atimeMs":1646649700711.8271,"mtimeMs":1646649700711.8271,"ctimeMs":1646649700711.8271,"birthtimeMs":1646649700711.8271,"atime":"2022-03-07T10:41:40.712Z","mtime":"2022-03-07T10:41:40.712Z","ctime":"2022-03-07T10:41:40.712Z","birthtime":"2022-03-07T10:41:40.712Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 18:41:49,353 WARN 78219 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/business/user.js rename
+2022-03-07 18:41:49,152 INFO 78219 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/business/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":16057359,"size":0,"blocks":0,"atimeMs":1646649709147.042,"mtimeMs":1646649709147.042,"ctimeMs":1646649709147.042,"birthtimeMs":1646649709147.042,"atime":"2022-03-07T10:41:49.147Z","mtime":"2022-03-07T10:41:49.147Z","ctime":"2022-03-07T10:41:49.147Z","birthtime":"2022-03-07T10:41:49.147Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 18:43:34,301 WARN 78219 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js change
+2022-03-07 18:43:34,099 INFO 78219 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":16057345,"size":321,"blocks":8,"atimeMs":1646649700711.8271,"mtimeMs":1646649814038.9631,"ctimeMs":1646649814038.9631,"birthtimeMs":1646649700711.8271,"atime":"2022-03-07T10:41:40.712Z","mtime":"2022-03-07T10:43:34.039Z","ctime":"2022-03-07T10:43:34.039Z","birthtime":"2022-03-07T10:41:40.712Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 18:43:42,356 INFO 78219 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":16057345,"size":326,"blocks":8,"atimeMs":1646649814498.8665,"mtimeMs":1646649822345.046,"ctimeMs":1646649822345.046,"birthtimeMs":1646649700711.8271,"atime":"2022-03-07T10:43:34.499Z","mtime":"2022-03-07T10:43:42.345Z","ctime":"2022-03-07T10:43:42.345Z","birthtime":"2022-03-07T10:41:40.712Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-07 18:43:42,608 WARN 78219 [agent:development] reload worker because /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js change
+2022-03-07 18:43:42,407 INFO 78219 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/controller/developer.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":503,"gid":20,"rdev":0,"blksize":4096,"ino":16057345,"size":326,"blocks":8,"atimeMs":1646649814498.8665,"mtimeMs":1646649822345.046,"ctimeMs":1646649822345.046,"birthtimeMs":1646649700711.8271,"atime":"2022-03-07T10:43:34.499Z","mtime":"2022-03-07T10:43:42.345Z","ctime":"2022-03-07T10:43:42.345Z","birthtime":"2022-03-07T10:41:40.712Z"},"remove":false,"isDirectory":false,"isFile":true}
+2022-03-08 10:00:44,414 INFO 80595 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-08 10:00:44,016 INFO 80595 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-08 10:00:44,323 INFO 80595 [egg:core] dump config after load, 2ms
+2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-08 10:00:44,380 INFO 80595 [egg-watcher:agent] watcher start success
+2022-03-08 10:00:44,419 INFO 80595 [egg:core] dump config after ready, 3ms

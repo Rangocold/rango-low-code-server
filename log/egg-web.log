@@ -880,3 +880,73 @@
 2022-03-07 14:36:50,160 INFO 66610 [egg:core] dump config after load, 6ms
 2022-03-07 14:36:50,200 INFO 66610 [egg-watcher:application] watcher start success
 2022-03-07 14:36:50,216 INFO 66610 [egg:core] dump config after ready, 3ms
+2022-03-07 14:47:41,754 INFO 66916 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-07 14:47:41,781 INFO 66916 [egg-multipart] stream mode enable
+2022-03-07 14:47:42,102 INFO 66916 [egg-static] starting static serve /public/ -> /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/public
+2022-03-07 14:47:42,104 INFO 66916 [egg-security] use csrf middleware
+2022-03-07 14:47:42,105 INFO 66916 [egg-security] use methodnoallow middleware
+2022-03-07 14:47:42,106 INFO 66916 [egg-security] use noopen middleware
+2022-03-07 14:47:42,106 INFO 66916 [egg-security] use nosniff middleware
+2022-03-07 14:47:42,107 INFO 66916 [egg-security] use xssProtection middleware
+2022-03-07 14:47:42,108 INFO 66916 [egg-security] use xframe middleware
+2022-03-07 14:47:42,108 INFO 66916 [egg-security] use dta middleware
+2022-03-07 14:47:42,109 INFO 66916 [egg-security] compose 7 middlewares into one security middleware
+2022-03-07 14:47:46,991 INFO 66916 [egg:core] dump config after load, 5ms
+2022-03-07 14:47:47,038 INFO 66916 [egg-watcher:application] watcher start success
+2022-03-07 14:47:47,055 INFO 66916 [egg:core] dump config after ready, 3ms
+2022-03-07 15:06:15,624 INFO 67280 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-07 15:06:15,648 INFO 67280 [egg-multipart] stream mode enable
+2022-03-07 15:06:15,954 INFO 67280 [egg-static] starting static serve /public/ -> /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/public
+2022-03-07 15:06:15,956 INFO 67280 [egg-security] use csrf middleware
+2022-03-07 15:06:15,957 INFO 67280 [egg-security] use methodnoallow middleware
+2022-03-07 15:06:15,958 INFO 67280 [egg-security] use noopen middleware
+2022-03-07 15:06:15,958 INFO 67280 [egg-security] use nosniff middleware
+2022-03-07 15:06:15,959 INFO 67280 [egg-security] use xssProtection middleware
+2022-03-07 15:06:15,960 INFO 67280 [egg-security] use xframe middleware
+2022-03-07 15:06:15,960 INFO 67280 [egg-security] use dta middleware
+2022-03-07 15:06:15,960 INFO 67280 [egg-security] compose 7 middlewares into one security middleware
+2022-03-07 15:06:15,968 INFO 67280 [egg:core] dump config after load, 4ms
+2022-03-07 15:06:16,011 INFO 67280 [egg-watcher:application] watcher start success
+2022-03-07 15:06:16,027 INFO 67280 [egg:core] dump config after ready, 2ms
+2022-03-07 18:38:00,709 INFO 78222 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-07 18:38:00,729 INFO 78222 [egg-multipart] stream mode enable
+2022-03-07 18:38:00,947 INFO 78222 [egg-static] starting static serve /public/ -> /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/public
+2022-03-07 18:38:00,949 INFO 78222 [egg-security] use csrf middleware
+2022-03-07 18:38:00,950 INFO 78222 [egg-security] use methodnoallow middleware
+2022-03-07 18:38:00,951 INFO 78222 [egg-security] use noopen middleware
+2022-03-07 18:38:00,951 INFO 78222 [egg-security] use nosniff middleware
+2022-03-07 18:38:00,952 INFO 78222 [egg-security] use xssProtection middleware
+2022-03-07 18:38:00,953 INFO 78222 [egg-security] use xframe middleware
+2022-03-07 18:38:00,954 INFO 78222 [egg-security] use dta middleware
+2022-03-07 18:38:00,954 INFO 78222 [egg-security] compose 7 middlewares into one security middleware
+2022-03-07 18:38:00,963 INFO 78222 [egg:core] dump config after load, 3ms
+2022-03-07 18:38:00,998 INFO 78222 [egg-watcher:application] watcher start success
+2022-03-07 18:38:01,013 INFO 78222 [egg:core] dump config after ready, 3ms
+2022-03-07 18:41:41,635 INFO 78300 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-07 18:41:41,654 INFO 78300 [egg-multipart] stream mode enable
+2022-03-07 18:41:41,837 INFO 78300 [egg-static] starting static serve /public/ -> /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/public
+2022-03-07 18:41:41,839 INFO 78300 [egg-security] use csrf middleware
+2022-03-07 18:41:41,839 INFO 78300 [egg-security] use methodnoallow middleware
+2022-03-07 18:41:41,839 INFO 78300 [egg-security] use noopen middleware
+2022-03-07 18:41:41,839 INFO 78300 [egg-security] use nosniff middleware
+2022-03-07 18:41:41,840 INFO 78300 [egg-security] use xssProtection middleware
+2022-03-07 18:41:41,840 INFO 78300 [egg-security] use xframe middleware
+2022-03-07 18:41:41,840 INFO 78300 [egg-security] use dta middleware
+2022-03-07 18:41:41,840 INFO 78300 [egg-security] compose 7 middlewares into one security middleware
+2022-03-07 18:41:41,846 INFO 78300 [egg:core] dump config after load, 2ms
+2022-03-07 18:41:41,877 INFO 78300 [egg-watcher:application] watcher start success
+2022-03-07 18:41:41,891 INFO 78300 [egg:core] dump config after ready, 3ms
+2022-03-07 18:41:50,059 INFO 78328 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-03-07 18:41:50,082 INFO 78328 [egg-multipart] stream mode enable
+2022-03-07 18:41:50,264 INFO 78328 [egg-static] starting static serve /public/ -> /Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app/public
+2022-03-07 18:41:50,265 INFO 78328 [egg-security] use csrf middleware
+2022-03-07 18:41:50,266 INFO 78328 [egg-security] use methodnoallow middleware
+2022-03-07 18:41:50,266 INFO 78328 [egg-security] use noopen middleware
+2022-03-07 18:41:50,266 INFO 78328 [egg-security] use nosniff middleware
+2022-03-07 18:41:50,266 INFO 78328 [egg-security] use xssProtection middleware
+2022-03-07 18:41:50,267 INFO 78328 [egg-security] use xframe middleware
+2022-03-07 18:41:50,267 INFO 78328 [egg-security] use dta middleware
+2022-03-07 18:41:50,267 INFO 78328 [egg-security] compose 7 middlewares into one security middleware
+2022-03-07 18:41:50,273 INFO 78328 [egg:core] dump config after load, 3ms
+2022-03-07 18:41:50,306 INFO 78328 [egg-watcher:application] watcher start success
+2022-03-07 18:41:50,319 INFO 78328 [egg:core] dump config after ready, 3ms

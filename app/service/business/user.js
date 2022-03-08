@@ -20,7 +20,8 @@ module.exports = {
   orders: [['created_at','desc'], ['id','desc']], // 排序方式
   limit: 10, // 返回数据量
   offset: 0, // 数据偏移量 */
-  queryUserList: async(app, where, columns, orders) => {
+  queryUserList: async(app, where, orders, limit, offset) => {
+    const columns = ['id', 'name', 'age', 'sex', 'birthdate', 'remark'];
     return await app.mysql.select(UserTabName, {
       where,
       columns,
@@ -59,5 +60,9 @@ const options = {
   /*  */
   deleteOneUser: async(app, query) => {
     return await app.mysql.delete(UserTabName, query);
+  },
+
+  insertOneUser: async(app, row) => {
+    return await app.mysql.insert(UserTabName, row);
   },
 }

@@ -2,21 +2,20 @@
   "keys": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
   "middleware": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
   "sequelize": {
-    "dialect": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "host": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "port": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "user": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "password": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "database": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
+    "dialect": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
+    "host": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
+    "port": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
+    "user": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
+    "database": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
+    "password": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
     "username": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-sequelize/config/config.default.js"
   },
   "passportGithub": {
-    "key": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "secret": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
-    "callbackURL": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-passport-github/config/config.default.js"
+    "key": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
+    "secret": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js"
   },
   "logger": {
-    "dir": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.default.js",
+    "dir": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/config.local.js",
     "encoding": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
     "env": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
     "level": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
@@ -28,7 +27,9 @@
     "coreLogName": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.local.js"
+    },
     "allowDebugAtProd": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
     "enablePerformanceTimer": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js"
   },
@@ -60,7 +61,7 @@
       "value": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-security/config/config.default.js",
+      "enable": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-security/config/config.local.js",
       "maxAge": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-security/config/config.default.js"
     },
@@ -116,7 +117,7 @@
     "cookieMaxAge": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/config/config.default.js",
+    "type": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
       "default": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-watcher/config/config.default.js"
@@ -149,6 +150,14 @@
       "disable": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-multipart/config/config.default.js"
     }
   },
+  "development": {
+    "watchDirs": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-development/config/config.default.js"
+  },
   "logrotator": {
     "filesRotateByHour": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-logrotator/config/config.default.js",
     "hourDelimiter": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-logrotator/config/config.default.js",
@@ -163,13 +172,12 @@
     "dir": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.prod.js",
-    "maxFiles": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.default.js",
-    "maxAge": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.prod.js"
+    "buffer": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/config.default.js"
   },
   "view": {
     "root": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/config.default.js"
@@ -207,6 +215,7 @@
       "egg-passport-github": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
       "md5": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
       "mysql2": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",
       "passport-wechat": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/config.default.js",

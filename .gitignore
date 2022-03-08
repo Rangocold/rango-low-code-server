@@ -13,3 +13,5 @@ other.txt
 heihei.json
 
 /config/config.local.js
+
+/run/**/*

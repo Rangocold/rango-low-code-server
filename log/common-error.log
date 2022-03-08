@@ -713,3 +713,19 @@ hostname: C02D45U7MD6T
 pid: 61106
 hostname: C02D45U7MD6T
 
+2022-03-07 14:49:00,261 ERROR 66911 nodejs.ClusterClientNoResponseError: client no response in 73236ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 66911
+hostname: C02D45U7MD6T
+
+2022-03-07 15:07:54,453 ERROR 67264 nodejs.ClusterClientNoResponseError: client no response in 78434ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 67264
+hostname: C02D45U7MD6T
+
