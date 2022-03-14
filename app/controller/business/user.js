@@ -28,24 +28,48 @@ function parsePagination(pagination) {
 }
 
 class UserController extends Controller {
-  async getAll() {
-    const ctx = this.ctx;
-    const where = ctx.query.filter;
-    const order = parseSorter(ctx.query.sorter);
-    const { offset, limit } = parsePagination(ctx.query.pagination);
-    ctx.body = await ctx.service.business.user.queryUserList(this.app, where, order, limit, offset);
+  async list() {
+    try {
+      const ctx = this.ctx;
+      const where = ctx.query.filter;
+      const order = parseSorter(ctx.query.sorter);
+      const { offset, limit } = parsePagination(ctx.query.pagination);
+      ctx.body = {
+        code: SuccessCode,
+        message: '',
+        data: await ctx.service.business.user.queryUserList(this.app, where, order, limit, offset);
+      };
+    } catch(e) {
+      this.ctx.body = {
+        code: FailCode,
+        message: '',
+        data: [],
+      }
+    }
+    
   }
 
-  async insertOneUser() {
-    const ctx = this.ctx;
-    const row = {
-      name: ctx.query.name,
-      age: ctx.query.age,
-      sex: ctx.query.sex,
-      birthdate: ctx.query.birthdate,
-      remark: ctx.query.remark,
-    }
-    ctx.body = await ctx.service.business.user.insertOneUser(this.app, row);
+  async create() {
+    try {
+      const ctx = this.ctx;
+      const row = {
+        name: ctx.query.name,
+        age: ctx.query.age,
+        sex: ctx.query.sex,
+        birthdate: ctx.query.birthdate,
+        remark: ctx.query.remark,
+      }
+      ctx.body = {
+        code: SuccessCode,
+        message: '',
+        data: await ctx.service.business.user.insertOneUser(this.app, row),
+      };
+    } catch(e) {
+      this.ctx.body = {
+        code: FailCode,
+        message: '',
+      };
+    }   
   }
 }
 

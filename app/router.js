@@ -4,8 +4,15 @@
  */
 
 module.exports = app => {
-  const { router } = app;
   app.passport.mount('github');
 
-  app.router.resources('configs', '/configs', app.controller.config);
+  app.router.post('config/list', app.controller.config.list);
+  app.router.post('config//create', app.controller.config.create);
+  app.router.post('config/update', app.controller.config.update);
+
+  app.router.post('developer/create', app.controller.developer.create);
+  app.router.post('developer/get', app.controller.developer.get);
+
+  app.router.post('business.user/create', app.controller.business.user.create);
+  app.router.post('business/user/list', app.controller.business.user.list);
 };

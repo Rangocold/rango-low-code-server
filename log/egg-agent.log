@@ -877,3 +877,14 @@ hostname: C02D45U7MD6T
 2022-03-08 10:00:44,379 INFO 80595 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
 2022-03-08 10:00:44,380 INFO 80595 [egg-watcher:agent] watcher start success
 2022-03-08 10:00:44,419 INFO 80595 [egg:core] dump config after ready, 3ms
+2022-03-14 17:36:59,484 INFO 36694 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2022-03-14 17:36:58,989 INFO 36694 [egg:logger] init all loggers with options: {"dir":"/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"rango-low-code-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-03-14 17:36:59,330 INFO 36694 [egg:core] dump config after load, 3ms
+2022-03-14 17:36:59,389 INFO 36694 [egg-watcher] Start watching: ["/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy","/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"]
+2022-03-14 17:36:59,390 INFO 36694 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app"
+2022-03-14 17:36:59,390 INFO 36694 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config"
+2022-03-14 17:36:59,390 INFO 36694 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks"
+2022-03-14 17:36:59,390 INFO 36694 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/mocks_proxy"
+2022-03-14 17:36:59,390 INFO 36694 [egg-watcher] Start watching: "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/app.js"
+2022-03-14 17:36:59,390 INFO 36694 [egg-watcher:agent] watcher start success
+2022-03-14 17:36:59,490 INFO 36694 [egg:core] dump config after ready, 4ms
