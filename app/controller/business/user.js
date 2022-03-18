@@ -1,5 +1,6 @@
 const Controller = require('egg').Controller;
-const { isNil } = required('lodash');
+const { isNil } = require('lodash');
+const { SuccessCode, FailCode } = require('../../service/consts');
 
 const AntSortAscend = 'ascend';
 const AntSortDescend = 'descend';
@@ -9,21 +10,30 @@ const SortAsc = 'asc';
 const SortDesc = 'desc';
 
 function parseSorter(sorter) {
-  const order = [];
-  if (!isNil(ctx.query.order) && ctx.query.order.order !== AntSortNull) {
-    if (ctx.query.order.order === AntSortAscend) {
-      order.push([ctx.query.order.column, SortAsc])
-    } else if (ctx.query.order.order === AntSortDescend) {
-      order.push([ctx.query.order.column, SortDesc])
+  if (!isNil(sorter) && sorter.order !== AntSortNull) {
+    const order = [];
+    if (sorter.order === AntSortAscend) {
+      order.push([sorter.field, SortAsc])
+    } else if (sorter.order === AntSortDescend) {
+      order.push([sorter.field, SortDesc])
     }
+    return order;
+  } else {
+    return undefined;
   }
-  return order;
 }
 
 function parsePagination(pagination) {
+  if (isNil(pagination)) {
+    return {
+      offset: undefined,
+      limit: undefined,
+    }
+  }
   return {
-    offset: (pagination.pageNum - 1) * pagination.pageSize,
-    limit: pagination.pageSize,
+    offset: pagination.pageNumber ? (pagination.pageNumber - 1) * 10 : undefined,
+    //limit: pagination.pageSize ? pagination.pageSize : undefined,
+    limit: 10,
   }
 }
 
@@ -31,13 +41,13 @@ class UserController extends Controller {
   async list() {
     try {
       const ctx = this.ctx;
-      const where = ctx.query.filter;
-      const order = parseSorter(ctx.query.sorter);
-      const { offset, limit } = parsePagination(ctx.query.pagination);
+      const where = ctx.request.body.filter;
+      const order = parseSorter(ctx.request.body.sorter);
+      const { offset, limit } = parsePagination(ctx.request.body.pagination);
       ctx.body = {
         code: SuccessCode,
         message: '',
-        data: await ctx.service.business.user.queryUserList(this.app, where, order, limit, offset);
+        data: await ctx.service.business.user.queryUserList(this.app, where, order, limit, offset),
       };
     } catch(e) {
       this.ctx.body = {
@@ -53,11 +63,11 @@ class UserController extends Controller {
     try {
       const ctx = this.ctx;
       const row = {
-        name: ctx.query.name,
-        age: ctx.query.age,
-        sex: ctx.query.sex,
-        birthdate: ctx.query.birthdate,
-        remark: ctx.query.remark,
+        name: ctx.request.body.name,
+        age: ctx.request.body.age,
+        sex: ctx.request.body.sex,
+        birthdate: ctx.request.body.birthdate,
+        remarks: ctx.request.body.remarks,
       }
       ctx.body = {
         code: SuccessCode,
@@ -65,6 +75,7 @@ class UserController extends Controller {
         data: await ctx.service.business.user.insertOneUser(this.app, row),
       };
     } catch(e) {
+      console.error('error: ', e);
       this.ctx.body = {
         code: FailCode,
         message: '',

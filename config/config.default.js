@@ -35,20 +35,34 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = ['cors', 'auth'];
 
-  config.sequelize = {
-    dialect: 'mysql',
-    host: params.dbHost,
-    port: params.dbPort,
-    user: params.dbUser,
-    password: params.dbPassword,
-    database: params.dbName,
+  config.mysql = {
+    client: {
+      host: params.dbHost,
+      port: params.dbPort,
+      password: params.dbPassword,
+      database: params.dbName,
+      user: params.dbUser,
+      debug: true,
+    },
+    app: true,
+    agent: false,
   }
 
   config.passportGithub = {
     key: params.githubKey,
     secret: params.githubSecret,
-    // callbackURL: '/passport/github/callback',
-    // proxy: false,
+    callbackURL: 'rango-low-code-server/passport/github/callback',
+    proxy: true,
+  }
+
+  config.security = {
+    csrf: {
+      enable: false,
+    },
+  };
+
+  config.logger = {
+    dir: '/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/log',
   }
 
   // add your user config here

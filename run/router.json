@@ -6,8 +6,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/passport/github",
-    "regexp": "/^\\/passport\\/github(?:\\/(?=$))?$/",
+    "path": "/rango-low-code-server/passport/github",
+    "regexp": "/^\\/rango-low-code-server\\/passport\\/github(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -19,8 +19,104 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/passport/github/callback",
-    "regexp": "/^\\/passport\\/github\\/callback(?:\\/(?=$))?$/",
+    "path": "/rango-low-code-server/passport/github/callback",
+    "regexp": "/^\\/rango-low-code-server\\/passport\\/github\\/callback(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/config/list",
+    "regexp": "/^\\/rango-low-code-server\\/config\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/config//create",
+    "regexp": "/^\\/rango-low-code-server\\/config\\/\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/config/update",
+    "regexp": "/^\\/rango-low-code-server\\/config\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/developer/create",
+    "regexp": "/^\\/rango-low-code-server\\/developer\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/developer/get",
+    "regexp": "/^\\/rango-low-code-server\\/developer\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/business/user/create",
+    "regexp": "/^\\/rango-low-code-server\\/business\\/user\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/rango-low-code-server/business/user/list",
+    "regexp": "/^\\/rango-low-code-server\\/business\\/user\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/business/user/list",
+    "regexp": "/^\\/business\\/user\\/list(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

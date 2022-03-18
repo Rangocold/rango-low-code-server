@@ -18,7 +18,7 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "type": "ctoken",
         "ignoreJSON": false,
         "useSession": false,
@@ -27,8 +27,7 @@
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
         "queryName": "_csrf",
-        "refererWhiteList": [],
-        "matching": "<Function anonymous>"
+        "refererWhiteList": []
       },
       "xframe": {
         "enable": true,
@@ -108,7 +107,6 @@
         "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-static/config/locales",
         "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-view/config/locales",
         "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-mysql/config/locales",
-        "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-sequelize/config/locales",
         "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-passport/config/locales",
         "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-passport-github/config/locales",
         "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg/config/locales",
@@ -192,21 +190,21 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false
-    },
-    "sequelize": {
-      "dialect": "mysql",
-      "database": "rango_low_code",
-      "host": "127.0.0.1",
-      "port": 3306,
-      "username": "root",
-      "password": "<String len: 8>",
-      "user": "root"
+      "agent": false,
+      "client": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "database": "rango_low_code",
+        "user": "root",
+        "debug": true,
+        "password": "<String len: 8>"
+      }
     },
     "passportGithub": {
       "key": "1b682793f38768c24ec7",
       "secret": "<String len: 40>",
-      "callbackURL": "/passport/github/callback",
+      "callbackURL": "/rango-low-code-server/passport/github/callback",
+      "proxy": true,
       "passReqToCallback": true,
       "clientID": "1b682793f38768c24ec7",
       "clientSecret": "<String len: 40>",
@@ -243,6 +241,7 @@
         "egg-passport-github": "^1.0.0",
         "egg-scripts": "^2.11.0",
         "egg-sequelize": "^6.0.0",
+        "lodash": "^4.17.21",
         "md5": "^2.3.0",
         "mysql2": "^2.3.3",
         "passport-wechat": "^2.0.4",
@@ -564,17 +563,6 @@
       "from": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/plugin.js",
       "path": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-mysql",
       "version": "3.1.0"
-    },
-    "sequelize": {
-      "enable": true,
-      "package": "egg-sequelize",
-      "name": "sequelize",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/config/plugin.js",
-      "path": "/Users/chenzhitao/Desktop/rango/rango-low-code/rango-low-code-server/node_modules/egg-sequelize",
-      "version": "6.0.0"
     },
     "passport": {
       "enable": true,

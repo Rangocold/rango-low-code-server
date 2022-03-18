@@ -1,4 +1,5 @@
 const Controller = require('egg').Controller;
+const { SuccessCode, FailCode } = require('../service/consts');
 
 class DeveloperController extends Controller {
   async get() {

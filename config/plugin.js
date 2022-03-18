@@ -10,10 +10,10 @@ module.exports = {
     enable: true,
     package: 'egg-mysql',
   },
-  sequelize: {
+  /* sequelize: {
     enable: true,
     package: 'egg-sequelize',
-  },
+  }, */
   passport: {
     enable: true,
     package: 'egg-passport',

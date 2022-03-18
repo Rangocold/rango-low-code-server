@@ -1,5 +1,5 @@
 const Controller = require('egg').Controller;
-
+const { SuccessCode, FailCode } = require('../service/consts');
 class ConfigController extends Controller {
   async list() {
     try {
@@ -27,7 +27,7 @@ class ConfigController extends Controller {
 
       const row = {
         usr_token: ctx.user.id,
-        dsl: ctx.query.dsl,
+        dsl: ctx.request.body.dsl,
         template_name: ctx.user.templageName,
       }
       await ctx.service.config.createConfig(this.app, row);
@@ -49,7 +49,7 @@ class ConfigController extends Controller {
       const config = ctx.query;
       const options = {
         where: {
-          id: ctx.query.id,
+          id: ctx.request.body.id,
         }
       }
       await ctx.service.config.updateOneConfig(this.app, config, options);

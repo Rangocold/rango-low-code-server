@@ -1,6 +1,6 @@
 create table user_tab (
   id MEDIUMINT NOT NULL AUTO_INCREMENT,
-  usr_nam text not null,
+  name text not null,
   age int not null,
   sex char(1) not null,
   birthdate date not null,
