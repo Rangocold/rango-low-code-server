@@ -16,3 +16,5 @@ heihei.json
 
 /run/**/*
 run
+
+package-lock.json
